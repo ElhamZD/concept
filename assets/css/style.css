@@ -4,16 +4,15 @@ img {
 }
 .container {
   position: relative;
+  transition-duration:.6s;
 }
-
 .image {
   opacity: 1;
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: .6s ease;
 }
-
 .middle { 
   position: absolute;
   top: 0;
@@ -23,13 +22,12 @@ img {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #F04F23
-
+  transition: .4s ease;
+  background-color: #F04F23;
 }
-
 .container:hover .middle {
   opacity: 1;
+  transition-duration:.6s;
 }
 .text {
   color: white;
@@ -42,12 +40,10 @@ img {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .grid {
 	display: grid;
 	grid-gap: 14px;
 }
-
 .one {
 	grid-template-columns: 2fr .27fr 1.2fr;
   margin-bottom: 10px;
@@ -55,8 +51,33 @@ img {
 .Two {
 	grid-template-columns: 1.1fr 1fr 1fr .4fr;
   margin-bottom: 10px;
-
 }
 .Three {
 	grid-template-columns: .62fr 1.2fr 1.8fr;
+}
+/*1st row style*/
+.topRow{
+  display:inline-block;
+  width:100%;
+}
+.topRow img{
+  width:30px;
+}
+.topRow p{
+  display:inline-block;
+  margin-left:200px;
+  color:#F76EB7;
+  font-size:20px;
+}
+.topRow button{
+  background:linear-gradient(to right,#FF8666,#FF8BC7);
+  border:0;
+  outline:0;
+  color:white;
+  font-size:20px
+}
+.topRow .logo{
+  width:200px;
+  float:right;
+  margin-top:10px;
 }
