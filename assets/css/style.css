@@ -1,5 +1,7 @@
-@import url('reset.css');
-img { width: 100%;}
+/*@import url('reset.css');*/
+img {
+ width: 100%;
+}
 .container {
   position: relative;
 }
@@ -22,6 +24,7 @@ img { width: 100%;}
   width: 100%;
   opacity: 0;
   transition: .5s ease;
+  background-color: #F04F23
 
 }
 
@@ -30,7 +33,7 @@ img { width: 100%;}
 }
 .text {
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -38,7 +41,6 @@ img { width: 100%;}
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  background:green;
 }
 
 .grid {
@@ -48,9 +50,12 @@ img { width: 100%;}
 
 .one {
 	grid-template-columns: 2fr .27fr 1.2fr;
+  margin-bottom: 10px;
 }
 .Two {
 	grid-template-columns: 1.1fr 1fr 1fr .4fr;
+  margin-bottom: 10px;
+
 }
 .Three {
 	grid-template-columns: .62fr 1.2fr 1.8fr;
