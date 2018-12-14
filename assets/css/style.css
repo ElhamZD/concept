@@ -133,6 +133,7 @@
 .promoted .framework img{
   display:block;
   margin-bottom:10px;
+  width:100%;
 }
 .framework{
   grid-template-columns:.5fr .5fr .5fr .5fr .5fr .5fr .5fr;
@@ -257,8 +258,8 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
   .framework{grid-template-columns:1.75fr 1.75fr;}
 }
 /*links section in small screens*/
-@media (max-width:768px){
-  .links{grid-template-columns:.6fr .6fr .6fr .6fr .6fr ;}
+@media (max-width: 768px) {
+  .links{grid-template-columns:3fr ;}
 }
 
 
