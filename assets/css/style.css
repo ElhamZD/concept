@@ -26,7 +26,6 @@
 .right ul li a:hover{
   color:#E21B22;
   transition-duration:.4s;
-
 }
 /*header section style***************************************************************************/
 .header{
@@ -148,6 +147,12 @@
   font-size:11px;
   font-family:"Lato",sans-serif;
   line-height:13px;
+  transition-duration:.5s;
+}
+.framework a.headline:hover{
+  text-decoration:underline;
+  color:#b45d5d;
+  transition-duration:.5s;
 }
 .framework p a{
   font-family: "Playfair Display",Georgia,serif;
@@ -156,7 +161,13 @@
   font-size:16px;
   line-height:20px;
   text-decoration:none;
+  transition-duration:.5s;
 
+}
+.framework p a:hover{
+  text-decoration:underline;
+  color:#b45d5d;
+  transition-duration:.5s;
 }
 /*links section style*******************************************************************/
 .links{
