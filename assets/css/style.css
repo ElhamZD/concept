@@ -19,26 +19,10 @@
   text-decoration:none;
   font-size:.875rem;
   color:#000;
-  /*font-family:Futura W01,Helvetica,Arial,Sans-serif;*/
   letter-spacing:.15rem;
   line-height:.8;
   transition-duration:.4s;
-  /*font-family: "Futura";
-    src: url("//db.onlinewebfonts.com/t/5520b2b875202fac53dc536bc7aca367.eot");
-    src: url("//db.onlinewebfonts.com/t/5520b2b875202fac53dc536bc7aca367.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/5520b2b875202fac53dc536bc7aca367.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/5520b2b875202fac53dc536bc7aca367.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/5520b2b875202fac53dc536bc7aca367.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/5520b2b875202fac53dc536bc7aca367.svg#Futura") format("svg");*/
   font-family: 'Nunito', sans-serif;
-  /*font-family: "FuturaW01-Display";
-    src: url("//db.onlinewebfonts.com/t/31ac2381c95224fa04fc180d3c8242a7.eot");
-    src: url("//db.onlinewebfonts.com/t/31ac2381c95224fa04fc180d3c8242a7.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/31ac2381c95224fa04fc180d3c8242a7.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/31ac2381c95224fa04fc180d3c8242a7.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/31ac2381c95224fa04fc180d3c8242a7.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/31ac2381c95224fa04fc180d3c8242a7.svg#FuturaW01-Display") format("svg");
-  */
 }
 .right ul li a:hover{
   color:#E21B22;
