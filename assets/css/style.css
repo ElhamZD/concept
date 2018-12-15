@@ -29,8 +29,15 @@
 }
 /*header section style***************************************************************************/
 .header{
-  grid-template-columns:1fr 1fr .5fr;
+  grid-template-columns:2fr 1fr 1fr;
 }
+.welcome{
+  align-self:center;
+}
+.welcome img{
+  width:100%;
+}
+
 /*.header .welcome p{
   font-family:Segoe UI Light;
 }
@@ -47,15 +54,14 @@
   font-size:20px;
   padding:2px 5px;
 }*/
-.changing{
-  text-align:center;
+.changing img{
+  width:100%;
 }
 .header .logo{
-  text-align:center;
-  margin-top:10px;
+  align-self:end;
 }
 .header .logo img{
-  width:200px;
+  width:100%;
 }
 /*rows style*****************************************************************************/
 .container img {
@@ -140,7 +146,6 @@
 }
 .framework{
   grid-template-columns:.5fr .5fr .5fr .5fr .5fr .5fr .5fr;
-  border-bottom:5px solid #BA000E;
   padding-bottom:30px;
 }
 .framework a.headline{
@@ -173,9 +178,16 @@
   color:#b45d5d;
   transition-duration:.5s;
 }
+/*red line style*/
+.icon-custom-energy-stripe{
+  width:100%;
+  height:12px;
+  display:block;
+  background-color:#d5002b;
+}
 /*links section style*******************************************************************/
 .links{
-  grid-template-columns:.8fr .8fr .8fr .8fr;
+  grid-template-columns:.5fr .5fr .5fr .5fr .5fr .5fr;
   padding-bottom:10px;
   border-bottom:1px solid #d7d2cb;
 }
@@ -197,7 +209,8 @@
 }
 .links2 ul,
 .links3 ul,
-.links4 ul{
+.links4 ul,
+.links5 ul{
   border-left:1px solid #d7d2cb;
   padding-left:15px;
   line-height:1.42857143;
@@ -258,12 +271,18 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 @media (max-width:1024px) and (min-width:768px){
   .framework{grid-template-columns:.7fr .7fr .7fr .7fr;}
 }
+
 @media (max-width:425px){
   .framework{grid-template-columns:1.75fr 1.75fr;}
 }
 /*links section in small screens*/
-@media (max-width: 768px) {
-  .links{grid-template-columns:3fr ;}
+@media (max-width:768px){
+  .links{grid-template-columns:1fr 1fr 1fr !important ;}
+  .links1 ul{padding-left:16px;}
+}
+@media (max-width: 425px) {
+  .links{grid-template-columns:1.5fr 1.5fr !important ;}
+  .links1 ul{padding-left:16px;}
 }
 
 
@@ -313,5 +332,7 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
   float:right;
 }*/
 /*social media section style*/
+
+
 
 
